@@ -139,10 +139,12 @@ img {
         align-items: center;
         gap: 60px;
     }
-    section.lessons .col {
+    section.lessons .col, section.steps .col {
         width: 85%;
     }
-    section.lessons p.text {
-        max-width: auto;
+    section.steps .row {
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
     }
 }
