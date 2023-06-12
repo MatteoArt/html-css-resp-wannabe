@@ -134,17 +134,30 @@ img {
     }
 }
 @media screen and (max-width: 480px) {
-    section.lessons .row {
+    section.lessons .row, section.why-us .row {
         flex-direction: column;
         align-items: center;
         gap: 60px;
     }
-    section.lessons .col, section.steps .col {
+    section.lessons .col, section.steps .col, section.why-us .col {
         width: 85%;
+    }
+    section.steps {
+        margin-bottom: 0;
     }
     section.steps .row {
         flex-direction: column;
         align-items: center;
         gap: 80px;
+    }
+    section.why-us {
+        background-color: #222222;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        margin: 0;
+    }
+    section.why-us h2 {
+        margin: 0 auto 2.5rem;
+        width: 95%;
     }
 }
